@@ -1,3 +1,8 @@
+''' 
+beautiful soup를 이용해서 실시간으로 네이버 영화 리뷰를 받아와 데이터를 가공해서 
+그래프도 그려보고 분석을 해볼 계획으로 만들었습니다.
+'''
+
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
